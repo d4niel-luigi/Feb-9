@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Poseidonia Regular';
+    src: url('Poseidonia.ttf');
+  }
+.container{
+    display: grid;
+    
+    
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    gap: 5px;
+}
+body{
+    background-color: rgb(216, 209, 183);
+    font-family: Poseidonia Regular;
+}
+.grid-item{ 
+    grid-row-end: 1;
+    grid-row-start: 1; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 20px;
+    text-align: end;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.suveg{
+width: 70px;
+float: left;
+}
+.neville{
+    width: 80px;
+    float: right;
+    margin-top: 7px;
+    height: 87px;
+}
+.cim{
+    grid-row-end: 1;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    width: 550px;
+    margin-top: 10px;
+    
+}
+.grid-item1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 10;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 130px;
+    font-weight: bold;
+    
+}
+.exclusive{
+    background-color: black;
+    color: white;
+    
+}
+.grid-item2{
+    text-align: justify;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 2.5vw;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    
+}
+.hary{
+    margin-left: 20px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    color: white;
+    font-size: 3.3vw;
+    text-align: center;
+    margin-top: 145px;
+}
+.griditem3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    font-size: 35px;
+    text-align: justify;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.harryszov{
+    margin-right: 300px;
+    
+}
+.harry{
+    float: right;
+    width: 180px;
+    margin-right: 140px;
+    margin-top: 18px;
+}
+
+
+.grid-item3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    margin-left: 20px;
+    margin-right: 220px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.evek{
+    font-size: 10px;
+    
+}
+.page{
+    font-size: 30px;
+    line-height: 0;
+}
+.F{
+    width: 50px;
+    float: left;
+}
+.ujj{
+    width: 80px;
+    float: left;
+    margin-top: 10px;
+}
+.grid-item5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 90px;
+}
+ul#lista li{
+    display: inline;
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.egy{
+    margin-left: 120px;
+}
+hr{
+    border: 1px solid black;
+}
+
+.python{
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 280px;
+    margin-top: 110px;
+    margin-left: 25px;
+    height: 290px;
+    
+}
+
+.grid-item8{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    margin-right: 140px;
+    
+}
+.professor{
+    font-size: 10px;
+    text-align: justify;
+}
+.severus{
+    font-size: 20px;
+    font-weight: bold;
+}
+.W{
+    width: 80px;
+    float: left;
+}
+.grid-item10{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 10;
+    font-size: 17px;
+    
+}
+.cucc{
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.mcg{
+    float: left;
+    width: 120px;
+    height: 75px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.roxfort{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 20px;
+}
+.grid-item11{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: large;
+}
+.footer{
+    margin-top: 8px;
+    float: left;
+    width: 500px;
+    margin-left: 5px;
+}
+.ujj2{
+    margin-top: 5px;
+    float: left;
+    width: 70px;
+}
